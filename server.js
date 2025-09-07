@@ -7,7 +7,7 @@ const app = express();
 const port = 5000;
 
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://simple-authentication-system-fronte.vercel.app',
     credentials: true,
 }));
 app.use(express.json());
